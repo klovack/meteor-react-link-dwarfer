@@ -1,0 +1,31 @@
+.boxed-view {
+  align-items: center;
+  background: $boxed-view-overlay-bg;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.boxed-view__modal {
+  background: transparentize($boxed-view-overlay-bg, .3);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.boxed-view__box {
+  background: $boxed-view-bg;
+  border: 1px solid darken($boxed-view-bg, 10%);
+  box-shadow: 0px 2px 5px 2px transparentize($darkest-blue, 0.8);
+  padding: 2.4rem;
+  text-align: center;
+  width: 32rem;
+}
+
+.boxed-view__form {
+  display: flex;
+  flex-direction: column;
+}

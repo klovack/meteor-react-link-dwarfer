@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+
+// Main Color Pallete
+$darkest-blue: #0F1E4A;
+$kinda-brown: #C4641A;
+$washed-white: #FFFAF6;
+$abit-creme: #F3DEC1;
+
+// Spacing
+$gen-space: 1.4rem;
+
+// Window Width
+$site-max-width: 96rem;
+
+// Font-Family
+$base-font-family: Helvetica, "Roboto", Arial, sans-serif;
+$secondary-font-family: 'Berkshire Swash', cursive;
+
+// Font Sizes
+$base-font-size: 1.6rem;
+$medium-large-font-size: 2.0rem;
+$large-font-size: 2.8rem;
+$largest-font-size: 3.2rem;
+
+// Font Colors
+$base-font-color: $darkest-blue;
+$secondary-font-color: $washed-white;
+$item-font-color: darken($kinda-brown, 10%);
+
+// Form Inputs
+$input-border: $kinda-brown;
+$input-spacing: 1rem;
+
+// Boxed View
+$boxed-view-overlay-bg: $washed-white;
+$boxed-view-bg: $abit-creme;
+
+// Button Color
+$base-button-bg: $kinda-brown;
+$base-button-color: $washed-white;
+$secondary-button-bg: $base-button-color;
+$secondary-button-color: $base-button-bg;
+
+// Navigation Header
+$base-nav-border: $kinda-brown;
+$base-nav-bg: $abit-creme;
+
+// Item
+$item-bg: $abit-creme;
+$item-border: $kinda-brown;

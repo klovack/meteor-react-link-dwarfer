@@ -1,0 +1,25 @@
+.navigation {
+  background-color: $base-nav-bg;
+  border-bottom: 1px solid transparentize($base-nav-border, .5);
+  margin: $gen-space 0;
+  margin-top: 0;
+  padding: $gen-space;
+  text-align: center;
+}
+
+.navigation--link {
+  border: none;
+  background-color: transparent;
+  line-height: 1.6;
+  border-top: 1px solid $base-nav-border;
+  transition: all 200ms ease-in-out;
+}
+
+.navigation--link:active, .navigation--link:focus {
+  font-size: 1.4rem;
+  outline: none;
+}
+
+.navigation--link:hover {
+  color: $base-nav-border;
+}

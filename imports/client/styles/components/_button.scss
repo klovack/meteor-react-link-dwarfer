@@ -1,0 +1,35 @@
+.button {
+  background-color: $base-button-bg;
+  border: none;
+  box-shadow: 0px 2px 5px transparentize(darken($base-button-bg, 10%), 0.7) ;
+  color: $base-button-color;
+  cursor: pointer;
+  font-size: $base-font-size;
+  line-height: 1.2;
+  margin-bottom: $gen-space;
+  padding: $input-spacing;
+  
+}
+
+.button--link {
+  display: inline-block;
+  margin: $input-spacing 0;
+  text-decoration: none;
+}
+
+.button--pill {
+  background-color: transparent;
+  border: 1px solid $base-button-bg;
+  box-shadow: none;
+  color: $base-button-bg;
+  padding: .3rem .8rem;
+  margin-right: $gen-space / 2;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.button--secondary {
+  background-color: $secondary-button-bg;
+  border: 1px solid $secondary-button-color;
+  color: $secondary-button-color;
+}

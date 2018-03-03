@@ -1,0 +1,21 @@
+.item {
+  background-color: $item-bg;
+  border: 1px solid $item-border;
+  margin-bottom: $gen-space;
+  padding: $gen-space;
+}
+
+.item__message {
+  color: $item-font-color;
+  font-weight: 300;
+}
+
+.item__message-status {
+  font-size: 1.4rem;
+}
+
+.item__status {
+  color: $item-font-color;
+  text-align: center;
+  margin: 0;
+}
